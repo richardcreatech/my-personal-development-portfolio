@@ -58,7 +58,8 @@ header ul:nth-of-type(3) button{
 header ul:nth-of-type(3) button:nth-of-type(1){
   background: #7A7CFF;
   border: none;
-  color: rgba(255, 255, 255, 0.63);
+  /* color: rgba(255, 255, 255, 0.63); */
+  color: black;
 }
 
 header ul:nth-of-type(3) button:nth-of-type(2){
@@ -85,5 +86,17 @@ header ul:nth-of-type(3) button:nth-of-type(2){
 }
 
 #home_page p{
+  color: rgba(255, 255, 255, 0.705);
+}
+
+#home_page .point_down{
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#home_page .arrow-down{
+  transform: scaleX(1.5);
   color: white;
 }
